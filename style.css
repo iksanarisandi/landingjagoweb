@@ -994,6 +994,9 @@ input {
 }
 
 .artikel__card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
   background: var(--light-bg);
   border-radius: var(--radius);
   overflow: hidden;
@@ -1005,6 +1008,10 @@ input {
   box-shadow: var(--shadow-lg);
   transform: translateY(-4px);
   border-color: var(--primary-light);
+}
+
+.artikel__card:hover .artikel__card-title {
+  color: var(--primary);
 }
 
 .artikel__card-img {
@@ -1074,6 +1081,31 @@ input {
   font-size: 0.85rem;
   color: var(--text-light);
   line-height: 1.5;
+}
+
+.artikel__more {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.artikel__more-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 32px;
+  background: var(--primary);
+  color: #fff;
+  text-decoration: none;
+  border-radius: 50px;
+  font-weight: 600;
+  font-size: 0.95rem;
+  transition: var(--transition);
+}
+
+.artikel__more-btn:hover {
+  background: var(--primary-dark);
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
 }
 
 /* ---- FAQ ---- */
