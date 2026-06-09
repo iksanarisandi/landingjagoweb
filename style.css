@@ -739,6 +739,18 @@ input {
 .demo__card-img {
   aspect-ratio: 16 / 10;
   overflow: hidden;
+  background: var(--light-bg);
+}
+
+.demo__card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.demo__card:hover .demo__card-img img {
+  transform: scale(1.05);
 }
 
 .demo__card-placeholder {
@@ -1017,6 +1029,18 @@ input {
 .artikel__card-img {
   aspect-ratio: 16 / 9;
   overflow: hidden;
+  background: var(--light-bg);
+}
+
+.artikel__card-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s ease;
+}
+
+.artikel__card:hover .artikel__card-img img {
+  transform: scale(1.05);
 }
 
 .artikel__card-placeholder {
