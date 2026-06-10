@@ -6,7 +6,9 @@
       "Bash(git add *)",
       "Bash(git commit -m 'feat: add 40 SEO articles for UMKM website service *)",
       "Bash(git push *)",
-      "Bash(git commit -m 'feat: replace placeholder SVGs with real Unsplash images *)"
+      "Bash(git commit -m 'feat: replace placeholder SVGs with real Unsplash images *)",
+      "Bash(git commit *)",
+      "Bash(Measure-Object -Line)"
     ]
   }
 }
